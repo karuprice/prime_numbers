@@ -1,24 +1,147 @@
-.App {
-  text-align: center;
+/*.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px
+}*/
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.numbersInContainer {
+    margin: auto;    
+    width: 150px;
+    position: relative
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.numbersIn {
+    position: absolute;
+   top: -50px;
 }
 
-.App-intro {
-  font-size: large;
+.machineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    position: relative
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.boxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    position: relative
 }
+
+.functionMachine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 200px;
+    background-color: lightgrey
+}
+
+
+
+.outPutContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.isPrime {
+    background-color: lawngreen;
+    width: 200px;  
+    height: 100px; 
+    margin: auto;  
+    position: relative;
+    z-index: -1;
+}
+
+.notPrime {
+    background-color: palevioletred;
+    width: 200px;  
+    height: 100px; 
+    margin: auto;
+    position: relative;
+    z-index: -1;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    width: 200px;  
+    margin: auto;
+    position: absolute;
+    top: 50px
+}
+
+.outputHole {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+}
+
+.screw1 {
+    position: absolute;
+    transform: rotate(10deg);
+    left: 10px;
+    top: 10px;
+}
+
+.screw2 {
+    position: absolute;
+    transform: rotate(15deg);
+    right: 10px;
+    top: 10px;
+}
+
+.screw3 {
+    position: absolute;
+    transform: rotate(30deg);
+    left: 10px;
+    bottom: 10px;
+}
+
+.screw4 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.wheel1 {
+    position: absolute;
+    bottom: -15px;
+    color: brown;
+    font-size: 32px
+}
+
+.wheel2 {
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    color: brown;
+    font-size: 32px
+}
+
+.outputBoxesContainer {
+     display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 200px
+}
+
+
+
